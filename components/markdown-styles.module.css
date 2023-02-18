@@ -9,6 +9,18 @@
   @apply my-6;
 }
 
+.markdown code {
+  @apply my-6;
+}
+
+.markdown pre {
+  @apply my-6;
+  overflow-x: auto;
+  background-color: darkslategray;
+  color: white;
+  padding: 1.5rem;
+}
+
 .markdown h2 {
   @apply text-3xl mt-12 mb-4 leading-snug;
 }
