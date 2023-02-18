@@ -19,7 +19,7 @@ export default function Index({ allPosts }: Props) {
     <>
       <Layout>
         <Head>
-          <title>{`PCVT website ${CMS_NAME}`}</title>
+          <title>{`PCVT website`}</title>
         </Head>
         <Container>
           <Intro />
